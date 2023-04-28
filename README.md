@@ -1,2 +1,2 @@
-# Page parsing algorithm https://m.imdb.com/chart/top / and processing of the received information in the data dictionary.
+# Page parsing algorithm https://m.imdb.com/chart/top and processing of the received information in the data dictionary.
 The project consists of a data loader, which describes the logic of saving a web page to a local computer; a file that describes the parser class of the downloaded page (scraping data from web pages using the Beautiful Soup library); a file `data.py `, where the work with the resulting files will be described, as well as `__init__.py `, in which there will be general functions that will help to use our entire module in one line.
