@@ -27,4 +27,4 @@ def process(url, web_page_path="html_file", data_path="json_file"):
     data = open_file(data_path)
     return find_by_rate(data, 8.5)
 
-# print(process('https://m.imdb.com/chart/top/'))
+print(process('https://m.imdb.com/chart/top/'))
